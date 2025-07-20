@@ -1,0 +1,13 @@
+tqdm
+opencv-python
+torch
+torchaudio
+numpy
+gTTS
+pydub
+transformers
+git+https://github.com/openai/whisper.git
+face-alignment
+moviepy
+scikit-image
+imageio
