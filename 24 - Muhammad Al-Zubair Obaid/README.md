@@ -31,10 +31,6 @@ The system is composed of three main applications:
 3.  **Set up environment variables:**
     - Copy the `config/.env.example` file to `config/.env`.
     - Fill in the required environment variables.
-4.  **Run the development environment:**
-    ```bash
-    docker-compose up --build
-    ```
 
 ## Project Structure
 
