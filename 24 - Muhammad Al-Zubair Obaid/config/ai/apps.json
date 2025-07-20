@@ -1,0 +1,11 @@
+{
+  "$schema": "schemas/apps.json",
+  "applications": [
+    { "id": "Google.Chrome", "aliases": ["chrome", "google chrome"] },
+    { "id": "Microsoft.VisualStudioCode", "aliases": ["vscode", "vs code", "visual studio code"] },
+    { "id": "Python.Python.3.12", "aliases": ["python", "python3"] },
+    { "id": "Git.Git", "aliases": ["git"] },
+    { "id": "Mozilla.Firefox", "aliases": ["firefox"] },
+    { "id": "OpenJS.NodeJS", "aliases": ["node", "nodejs"] }
+  ]
+}

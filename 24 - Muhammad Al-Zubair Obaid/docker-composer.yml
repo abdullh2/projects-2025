@@ -1,0 +1,64 @@
+# docker-compose.yml
+# This file is a placeholder to define the multi-service architecture.
+# It will be fully implemented in Phase 8.
+
+version: '3.8'
+
+services:
+  # Django Backend Service
+  django-backend:
+    build:
+      context: ./apps/django-backend
+      dockerfile: Dockerfile
+    container_name: django_backend_service
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./apps/django-backend:/app
+    ports:
+      - "8000:8000"
+    env_file:
+      - apps/django-backend/config/.env
+    depends_on:
+      - db
+      - dotnet-grpc-service
+
+  # .NET gRPC Service
+  dotnet-grpc-service:
+    build:
+      context: ./apps/dotnet-grpc-service
+      dockerfile: Dockerfile
+    container_name: dotnet_grpc_service
+    ports:
+      - "50051:50051" # gRPC port
+    volumes:
+      - ./apps/dotnet-grpc-service:/app
+    env_file:
+      - apps/django-backend/config/.env
+
+  # Angular Frontend Service
+  angular-frontend:
+    build:
+      context: ./apps/angular-frontend
+      dockerfile: Dockerfile
+    container_name: angular_frontend_ui
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./apps/angular-frontend:/app
+      - /app/node_modules # Prevent host node_modules from overwriting container's
+
+  # PostgreSQL Database
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+
+volumes:
+  postgres_data:
