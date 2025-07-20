@@ -1,0 +1,373 @@
+2025-07-08 23:58:00,837 - root - INFO - --- Loading Plugins ---
+2025-07-08 23:58:00,861 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-08 23:58:00,884 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-08 23:58:00,899 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-08 23:58:01,001 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-08 23:58:01,002 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-08 23:58:01,023 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-08 23:58:01,024 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-08 23:58:01,024 - root - INFO - -----------------------
+2025-07-08 23:58:01,079 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-08 23:58:01,097 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-08 23:58:02,105 - root - INFO - NLU model loaded successfully.
+2025-07-08 23:58:16,243 - root - ERROR - gTTS error: Failed to connect. Probable cause: Unknown
+2025-07-08 23:58:16,976 - root - INFO - Wake word engine started successfully.
+2025-07-08 23:58:26,220 - root - INFO - Closing application and stopping threads...
+2025-07-08 23:58:26,224 - root - ERROR - Wake word engine error: 'NoneType' object has no attribute 'frame_length'
+2025-07-08 23:58:26,225 - root - INFO - Wake word thread stopped.
+2025-07-08 23:58:26,240 - root - ERROR - Handled Wake Word Error: 'NoneType' object has no attribute 'frame_length'
+2025-07-08 23:58:57,817 - root - INFO - --- Loading Plugins ---
+2025-07-08 23:58:57,818 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-08 23:58:57,819 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-08 23:58:57,819 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-08 23:58:57,863 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-08 23:58:57,863 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-08 23:58:57,864 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-08 23:58:57,864 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-08 23:58:57,864 - root - INFO - -----------------------
+2025-07-08 23:58:58,192 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-08 23:58:58,213 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-08 23:58:58,339 - root - INFO - NLU model loaded successfully.
+2025-07-08 23:59:01,521 - root - INFO - Wake word engine started successfully.
+2025-07-08 23:59:04,062 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp2yr9j17k.mp3
+2025-07-08 23:59:14,880 - root - INFO - NLU Analysis -> Top Intent: GREETING (Confidence: 1.00), Entities: {}
+2025-07-08 23:59:26,229 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpkkkhwqyz.mp3
+2025-07-08 23:59:31,223 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·ÌÊ ÌÊ»'}
+2025-07-08 23:59:31,231 - root - INFO - Opened URL with preferred browser (Chrome): https://www.youtube.com/
+2025-07-08 23:59:39,510 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·„ ’›Õ'}
+2025-07-08 23:59:41,007 - root - INFO - Opened URL with preferred browser (Chrome): https://www.google.com/
+2025-07-08 23:59:44,698 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp6sr0tjqv.mp3
+2025-07-08 23:59:48,452 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·„‰»Â'}
+2025-07-08 23:59:52,738 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpbbszupt3.mp3
+2025-07-08 23:59:56,363 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-08 23:59:59,086 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpi4npr75c.mp3
+2025-07-09 00:00:02,749 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·—”«„'}
+2025-07-09 00:00:07,149 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmptxn6_us8.mp3
+2025-07-09 00:00:12,664 - root - INFO - NLU Analysis -> Top Intent: GENERAL_KNOWLEDGE_QUERY (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ”Ê—Ì«'}
+2025-07-09 00:00:17,560 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpzukpe9nc.mp3
+2025-07-09 00:00:24,413 - root - INFO - NLU Analysis -> Top Intent: GET_TIME (Confidence: 1.00), Entities: {'APP_NAME': '«·«‰'}
+2025-07-09 00:00:29,434 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpzfx_e5j0.mp3
+2025-07-09 00:00:40,424 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpy26uz6hh.mp3
+2025-07-09 00:00:42,363 - root - INFO - Closing application and stopping threads...
+2025-07-09 00:00:42,369 - root - ERROR - Wake word engine error: 'NoneType' object has no attribute 'frame_length'
+2025-07-09 00:00:42,370 - root - INFO - Wake word thread stopped.
+2025-07-09 00:00:42,388 - root - ERROR - Handled Wake Word Error: 'NoneType' object has no attribute 'frame_length'
+2025-07-09 00:00:43,995 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpc0v7vszq.mp3
+2025-07-20 20:52:46,449 - root - WARNING -  ‰»ÌÂ: „Ã·œ «·≈÷«›«  'plugins' €Ì— „ÊÃÊœ.
+2025-07-20 20:52:46,884 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 20:52:46,909 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 20:52:47,912 - root - INFO - NLU model loaded successfully.
+2025-07-20 20:52:52,497 - root - INFO - Wake word engine started successfully.
+2025-07-20 20:52:54,856 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp2x76uvcw.mp3
+2025-07-20 20:53:04,762 - root - INFO - NLU Analysis -> Top Intent: GREETING (Confidence: 1.00), Entities: {}
+2025-07-20 20:53:14,296 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp56410rdt.mp3
+2025-07-20 20:53:18,503 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·ÌÊ ÌÊ»'}
+2025-07-20 20:53:18,511 - root - INFO - Opened URL with preferred browser (Chrome): [https://www.youtube.com/](https://www.youtube.com/)
+2025-07-20 20:53:31,873 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·„ ’›Õ'}
+2025-07-20 20:53:33,178 - root - INFO - Opened URL with preferred browser (Chrome): [https://www.google.com/](https://www.google.com/)
+2025-07-20 20:53:36,875 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpjv7e97b6.mp3
+2025-07-20 20:53:40,293 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·ÌÊ ÌÊ»'}
+2025-07-20 20:53:40,301 - root - INFO - Opened URL with preferred browser (Chrome): [https://www.youtube.com/](https://www.youtube.com/)
+2025-07-20 20:53:56,332 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpg6qo6qgd.mp3
+2025-07-20 20:54:02,305 - root - INFO - Closing application and stopping threads...
+2025-07-20 20:54:02,318 - root - ERROR - Wake word engine error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 20:54:02,320 - root - INFO - Wake word thread stopped.
+2025-07-20 20:54:02,336 - root - ERROR - Handled Wake Word Error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 20:54:06,854 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpgsxg6x_f.mp3
+2025-07-20 20:57:54,038 - root - WARNING -  ‰»ÌÂ: „Ã·œ «·≈÷«›«  'plugins' €Ì— „ÊÃÊœ.
+2025-07-20 20:57:54,466 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 20:57:54,491 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 20:57:54,637 - root - INFO - NLU model loaded successfully.
+2025-07-20 20:57:57,801 - root - INFO - Wake word engine started successfully.
+2025-07-20 20:58:00,292 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpynplwjns.mp3
+2025-07-20 20:58:05,006 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·ÌÊ ÌÊ»'}
+2025-07-20 20:58:05,014 - root - INFO - Opened URL with preferred browser (Chrome): https://www.youtube.com/
+2025-07-20 20:58:18,567 - root - INFO - NLU Analysis -> Top Intent: SEARCH_YOUTUBE (Confidence: 1.00), Entities: {'QUERY': '«€‰ÌÂ Â«œ∆Â'}
+2025-07-20 20:58:22,166 - root - INFO - Opened URL with preferred browser (Chrome): https://www.youtube.com/results?search_query=%D8%A7%D8%BA%D9%86%D9%8A%D9%87+%D9%87%D8%A7%D8%AF%D8%A6%D9%87
+2025-07-20 20:58:27,647 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmph3hpau4k.mp3
+2025-07-20 20:59:53,164 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:00:02,661 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp9887ux9r.mp3
+2025-07-20 21:00:09,267 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:00:17,005 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpaeu7a66r.mp3
+2025-07-20 21:00:20,537 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·„‰»Â'}
+2025-07-20 21:00:27,421 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp1fkz8fmq.mp3
+2025-07-20 21:00:35,923 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·—”«„'}
+2025-07-20 21:00:41,555 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp7zzymef4.mp3
+2025-07-20 21:01:00,458 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:01:13,046 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp60adxaoi.mp3
+2025-07-20 21:01:28,922 - root - INFO - NLU Analysis -> Top Intent: GREETING (Confidence: 0.82), Entities: {'APP_NAME': '« «Œ—'}
+2025-07-20 21:01:37,503 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp4j1aqyyb.mp3
+2025-07-20 21:03:52,449 - root - INFO - Closing application and stopping threads...
+2025-07-20 21:03:58,974 - root - INFO - Conversation thread stopped.
+2025-07-20 21:03:58,983 - root - ERROR - Wake word engine error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 21:03:58,985 - root - INFO - Wake word thread stopped.
+2025-07-20 21:03:58,996 - root - ERROR - Handled Wake Word Error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 21:04:03,489 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp_5gd8cs7.mp3
+2025-07-20 21:04:10,362 - root - WARNING -  ‰»ÌÂ: „Ã·œ «·≈÷«›«  'plugins' €Ì— „ÊÃÊœ.
+2025-07-20 21:04:10,716 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 21:04:10,739 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 21:04:10,882 - root - INFO - NLU model loaded successfully.
+2025-07-20 21:04:13,432 - root - INFO - Wake word engine started successfully.
+2025-07-20 21:04:15,911 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpm4mvo9pj.mp3
+2025-07-20 21:04:26,820 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:04:34,128 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpzf6a_68g.mp3
+2025-07-20 21:04:41,245 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:04:48,601 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpi2pasgug.mp3
+2025-07-20 21:04:55,764 - root - INFO - Closing application and stopping threads...
+2025-07-20 21:05:01,262 - root - INFO - Conversation thread stopped.
+2025-07-20 21:09:33,452 - root - INFO - --- Loading Plugins ---
+2025-07-20 21:09:33,468 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-20 21:09:33,470 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-20 21:09:33,471 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-20 21:09:33,582 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-20 21:09:33,583 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-20 21:09:33,597 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-20 21:09:33,600 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-20 21:09:33,601 - root - INFO - -----------------------
+2025-07-20 21:09:34,017 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 21:09:34,039 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 21:09:34,185 - root - INFO - NLU model loaded successfully.
+2025-07-20 21:09:36,353 - root - INFO - Wake word engine started successfully.
+2025-07-20 21:09:37,697 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp8jd2g_f8.mp3
+2025-07-20 21:09:44,810 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:09:49,629 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpi8ne8aqy.mp3
+2025-07-20 21:09:49,986 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:09:53,976 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpv9x9md39.mp3
+2025-07-20 21:09:55,458 - root - INFO - NLU Analysis -> Top Intent: VOLUME_CONTROL (Confidence: 1.00), Entities: {'VOLUME_TARGET': '«·’Ê '}
+2025-07-20 21:09:59,086 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp7uoiv78r.mp3
+2025-07-20 21:10:02,314 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·„‰»Â'}
+2025-07-20 21:10:06,673 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmps2ejs0lj.mp3
+2025-07-20 21:10:08,630 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·ÌÊ ÌÊ»'}
+2025-07-20 21:10:08,641 - root - INFO - Opened URL with preferred browser (Chrome): https://www.youtube.com/
+2025-07-20 21:10:37,169 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpbyzks3f5.mp3
+2025-07-20 21:11:02,213 - root - INFO - --- Loading Plugins ---
+2025-07-20 21:11:02,215 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-20 21:11:02,217 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-20 21:11:02,218 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-20 21:11:02,274 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-20 21:11:02,275 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-20 21:11:02,275 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-20 21:11:02,276 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-20 21:11:02,276 - root - INFO - -----------------------
+2025-07-20 21:11:02,627 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 21:11:02,651 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 21:11:02,838 - root - INFO - NLU model loaded successfully.
+2025-07-20 21:11:04,534 - root - INFO - Wake word engine started successfully.
+2025-07-20 21:11:06,943 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp9auzi19_.mp3
+2025-07-20 21:11:18,770 - root - INFO - NLU Analysis -> Top Intent: SEARCH_BROWSER (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ›—‰”«'}
+2025-07-20 21:11:20,539 - root - INFO - Opened URL with preferred browser (Chrome): https://www.google.com/search?q=%D8%B9%D8%A7%D8%B5%D9%85%D9%87+%D9%81%D8%B1%D9%86%D8%B3%D8%A7
+2025-07-20 21:11:26,288 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp__j6vmfn.mp3
+2025-07-20 21:11:38,374 - root - INFO - NLU Analysis -> Top Intent: GENERAL_KNOWLEDGE_QUERY (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ›—‰”«'}
+2025-07-20 21:12:13,764 - root - INFO - Closing application and stopping threads...
+2025-07-20 21:12:18,403 - root - INFO - Conversation thread stopped.
+2025-07-20 21:12:18,411 - root - ERROR - Wake word engine error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 21:12:18,412 - root - INFO - Wake word thread stopped.
+2025-07-20 21:12:18,432 - root - ERROR - Handled Wake Word Error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 21:12:26,180 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp4vvpfamg.mp3
+2025-07-20 21:17:41,937 - root - INFO - --- Loading Plugins ---
+2025-07-20 21:17:41,940 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-20 21:17:41,942 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-20 21:17:41,943 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-20 21:17:42,000 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-20 21:17:42,001 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-20 21:17:42,002 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-20 21:17:42,003 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-20 21:17:42,003 - root - INFO - -----------------------
+2025-07-20 21:17:42,377 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 21:17:42,400 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 21:17:42,548 - root - INFO - NLU model loaded successfully.
+2025-07-20 21:17:44,122 - root - INFO - Wake word engine started successfully.
+2025-07-20 21:17:46,465 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpp_tby1e_.mp3
+2025-07-20 21:18:03,630 - root - INFO - NLU Analysis -> Top Intent: OPEN_APPLICATION (Confidence: 1.00), Entities: {'APP_NAME': '«·ÌÊ ÌÊ»'}
+2025-07-20 21:18:03,638 - root - INFO - Opened URL with preferred browser (Chrome): https://www.youtube.com/
+2025-07-20 21:18:17,940 - root - INFO - NLU Analysis -> Top Intent: GENERAL_KNOWLEDGE_QUERY (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ›—‰”«'}
+2025-07-20 21:18:18,958 - root - ERROR - Gemini General Error: 403 Received http2 header with status: 403
+Traceback (most recent call last):
+  File "C:\Users\ALWAFER\Desktop\Personal Voice Assistant\Personal Voice Assistant\src\gui.py", line 781, in handle_gemini_chat
+    response = self.gemini_chat_session.send_message(command)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\generativeai\generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+        contents=history,
+    ...<5 lines>...
+        request_options=request_options,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.PermissionDenied: 403 Received http2 header with status: 403
+2025-07-20 21:18:32,395 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpshwogwno.mp3
+2025-07-20 21:20:07,957 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpl6qi0wyo.mp3
+2025-07-20 21:20:14,810 - root - INFO - Closing application and stopping threads...
+2025-07-20 21:20:28,044 - root - INFO - --- Loading Plugins ---
+2025-07-20 21:20:28,046 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-20 21:20:28,047 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-20 21:20:28,048 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-20 21:20:28,103 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-20 21:20:28,104 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-20 21:20:28,105 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-20 21:20:28,106 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-20 21:20:28,106 - root - INFO - -----------------------
+2025-07-20 21:20:28,442 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 21:20:28,464 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 21:20:28,616 - root - INFO - NLU model loaded successfully.
+2025-07-20 21:20:35,310 - root - INFO - Wake word engine started successfully.
+2025-07-20 21:20:37,751 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpokj72ifl.mp3
+2025-07-20 21:20:48,309 - root - INFO - NLU Analysis -> Top Intent: GENERAL_KNOWLEDGE_QUERY (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ›—‰”«'}
+2025-07-20 21:20:55,068 - root - ERROR - Gemini General Error: 403 Received http2 header with status: 403
+Traceback (most recent call last):
+  File "C:\Users\ALWAFER\Desktop\Personal Voice Assistant\Personal Voice Assistant\src\gui.py", line 781, in handle_gemini_chat
+    response = self.gemini_chat_session.send_message(command)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\generativeai\generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+        contents=history,
+    ...<5 lines>...
+        request_options=request_options,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.PermissionDenied: 403 Received http2 header with status: 403
+2025-07-20 21:21:11,229 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp_ebyzkyc.mp3
+2025-07-20 23:13:34,587 - root - INFO - --- Loading Plugins ---
+2025-07-20 23:13:34,591 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-20 23:13:34,593 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-20 23:13:34,595 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-20 23:13:34,647 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-20 23:13:34,649 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-20 23:13:34,650 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-20 23:13:34,651 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-20 23:13:34,651 - root - INFO - -----------------------
+2025-07-20 23:13:34,996 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 23:13:35,015 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 23:13:35,414 - root - INFO - NLU model loaded successfully.
+2025-07-20 23:13:39,365 - root - INFO - Wake word engine started successfully.
+2025-07-20 23:13:41,913 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpzq4r_zr3.mp3
+2025-07-20 23:13:55,347 - root - INFO - NLU Analysis -> Top Intent: GENERAL_KNOWLEDGE_QUERY (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ›—‰”«'}
+2025-07-20 23:13:58,091 - root - ERROR - Gemini General Error: 403 Received http2 header with status: 403
+Traceback (most recent call last):
+  File "C:\Users\ALWAFER\Desktop\Personal Voice Assistant\Personal Voice Assistant\src\gui.py", line 781, in handle_gemini_chat
+    response = self.gemini_chat_session.send_message(command)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\generativeai\generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+        contents=history,
+    ...<5 lines>...
+        request_options=request_options,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\ALWAFER\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.PermissionDenied: 403 Received http2 header with status: 403
+2025-07-20 23:14:18,023 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp7f8xlva1.mp3
+2025-07-20 23:14:35,819 - root - INFO - Closing application and stopping threads...
+2025-07-20 23:14:45,402 - root - INFO - Conversation thread stopped.
+2025-07-20 23:14:54,249 - root - INFO - --- Loading Plugins ---
+2025-07-20 23:14:54,251 - root - INFO - [Success] Loaded plugin: alarm_plugin
+2025-07-20 23:14:54,252 - root - INFO - [Success] Loaded plugin: browser_plugin
+2025-07-20 23:14:54,253 - root - INFO - [Success] Loaded plugin: time_plugin
+2025-07-20 23:14:54,300 - root - INFO - [Success] Loaded plugin: volume_plugin
+2025-07-20 23:14:54,301 - root - INFO - [Success] Loaded plugin: vscode_plugin
+2025-07-20 23:14:54,301 - root - INFO - [Success] Loaded plugin: weather_plugin
+2025-07-20 23:14:54,302 - root - INFO - [Success] Loaded plugin: youtube_plugin
+2025-07-20 23:14:54,302 - root - INFO - -----------------------
+2025-07-20 23:14:54,608 - root - INFO - Preferred browser (Chrome) found at: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-07-20 23:14:54,627 - root - INFO - Google Chrome registered as preferred browser.
+2025-07-20 23:14:54,751 - root - INFO - NLU model loaded successfully.
+2025-07-20 23:14:59,680 - root - INFO - Wake word engine started successfully.
+2025-07-20 23:15:02,231 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmp0brk6e24.mp3
+2025-07-20 23:15:10,570 - root - INFO - NLU Analysis -> Top Intent: GENERAL_KNOWLEDGE_QUERY (Confidence: 1.00), Entities: {'QUERY': '⁄«’„Â ›—‰”«'}
+2025-07-20 23:15:18,696 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpwq6qlxbj.mp3
+2025-07-20 23:15:32,717 - root - INFO - Successfully removed temporary audio file: C:\Users\ALWAFER\AppData\Local\Temp\tmpk8s2hu4l.mp3
+2025-07-20 23:15:34,849 - root - INFO - Closing application and stopping threads...
+2025-07-20 23:15:34,859 - root - ERROR - Wake word engine error: 'NoneType' object has no attribute 'frame_length'
+2025-07-20 23:15:34,862 - root - INFO - Wake word thread stopped.
+2025-07-20 23:15:34,881 - root - ERROR - Handled Wake Word Error: 'NoneType' object has no attribute 'frame_length'

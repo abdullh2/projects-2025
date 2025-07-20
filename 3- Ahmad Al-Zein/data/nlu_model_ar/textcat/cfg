@@ -1,0 +1,14 @@
+{
+  "labels":[
+    "GET_TIME",
+    "GET_WEATHER",
+    "VOLUME_CONTROL",
+    "SEARCH_BROWSER",
+    "OPEN_APPLICATION",
+    "SEARCH_YOUTUBE",
+    "GREETING",
+    "GENERAL_KNOWLEDGE_QUERY"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

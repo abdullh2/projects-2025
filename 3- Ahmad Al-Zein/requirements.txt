@@ -1,0 +1,12 @@
+pyaudio
+pvporcupine
+SpeechRecognition
+pygame
+google-generativeai
+PySide6
+spacy
+gtts
+requests
+python-dotenv
+comtypes
+pycaw
