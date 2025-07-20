@@ -18,8 +18,8 @@
 ```plaintext
 .
 ├── data/
-├── src/
-└── report.pdf
+├── customers_churn_prediction/
+└── .pdf
 ```
 
 ## 👤 الطالب:
