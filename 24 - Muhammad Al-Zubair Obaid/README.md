@@ -1,4 +1,4 @@
-~~~~# AI-Powered Laptop Support System
+# AI-Powered Laptop Support System
 
 This monorepo contains the complete source code for the AI-Powered Laptop Support System, a multi-technology project designed to provide automated technical assistance.
 
@@ -20,6 +20,8 @@ The system is composed of three main applications:
 
 ## Getting Started
 
+**NOTE:** Download models.7z from (**UPLOAD PENDING**) and extract it in main directory before running the project.
+
 1.  **Clone the repository:**
     ```bash
     git clone <repository-url>
@@ -31,10 +33,12 @@ The system is composed of three main applications:
 3.  **Set up environment variables:**
     - Copy the `config/.env.example` file to `config/.env`.
     - Fill in the required environment variables.
+4. **Run projects**
+   - .NET: dotnet run
+   - Angular: ng serve
+   - Django: python3 manage.py runserver
 
 ## Project Structure
 
 - **`apps/`**: Contains the primary, deployable applications (Angular, Django, .NET).
-- **`libs/`**: Houses shared libraries, code, or type definitions used across multiple applications.
 - **`config/`**: Stores all configuration files, including environment variables and the JSON schemas for the AI.
-- **`tools/`**: Includes development and operational scripts (e.g., deployment scripts, database migration tools).
