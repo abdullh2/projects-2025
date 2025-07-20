@@ -16,9 +16,11 @@
 مكتبات: OpenCV
 
 ## كيفية التشغيل
-لتشغيل المشروع نضع في terminal 
+ملاحظة: يجب تنزيل المشروع من الرابط https://drive.google.com/file/d/1BGhN5auZcfCNYlR7TeWrfFJOSmWAf0JL/view?usp=sharing ونسخ مجلد data في المجلد src
+لتشغيل المشروع:
+* نضع في terminal 
                                                                                                                python scripts/test_model.py
-
+                                                                                                                                         
 ## 📁 هيكل المجلد:
 ```
  Aerial_Analysis_Project
