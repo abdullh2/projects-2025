@@ -22,18 +22,8 @@ The system is composed of three main applications:
 
 **NOTE:** Download models.7z from (**UPLOAD PENDING**) and extract it in main directory before running the project.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    ```
-2.  **Navigate to the project root:**
-    ```bash
-    cd <project-directory>
-    ```
-3.  **Set up environment variables:**
-    - Copy the `config/.env.example` file to `config/.env`.
-    - Fill in the required environment variables.
-4. **Run projects**
+1. Navigate to **`apps`**, then one of the sub-projects listed in the directory
+2. **Run projects**
    - .NET: dotnet run
    - Angular: ng serve
    - Django: python3 manage.py runserver
