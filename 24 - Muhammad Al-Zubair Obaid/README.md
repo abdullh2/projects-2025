@@ -14,13 +14,13 @@ The system is composed of three main applications:
 - **Frontend:** Angular 20, TypeScript, RxJS, WebSockets
 - **Backend:** Django 4.2+, Django REST Framework, Django Channels
 - **AI Model:** TensorFlow, HuggingFace Transformers (`bert-base-multilingual-cased`)
-- **gRPC Service:** C# on .NET 8, ASP.NET Core gRPC
-- **Database:** PostgreSQL
+- **gRPC Service:** C# on .NET 9, ASP.NET Core gRPC
+- **Database:** SQLite
 - **Containerization:** Docker
 
 ## Getting Started
 
-**NOTE:** Download models.7z from (**UPLOAD PENDING**) and extract it in main directory before running the project.
+**NOTE:** Download models.7z from (**(https://drive.google.com/file/d/1iSRDumu0ZrKn9Vo3OEl1f-D8UcgrKb7A/view?usp=sharing)**) and extract it in main directory before running the project.
 
 1. Navigate to **`apps`**, then one of the sub-projects listed in the directory
 2. **Run projects**
