@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أداة تلخيص النصوص الذكية</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>أداة تلخيص النصوص الذكية</h1>
+    <form id="summarize-form">
+      <label for="user_text">النص المراد تلخيصه:</label>
+      <textarea name="user_text" id="user_text" rows="10" required placeholder="ألصق أو اكتب النص هنا..."></textarea>
+      <button type="submit">تلخيص...</button>
+    </form>
+
+    <div id="loading-indicator" style="display:none; margin-top: 1rem; color: #555; font-weight: bold;">
+      جاري التلخيص...
+    </div>
+
+    <h2>التلخيص:</h2>
+    <pre id="summary-output" class="output-box" style="white-space: pre-wrap;"></pre>
+  </div>
+
+  <script>
+    const form = document.getElementById('summarize-form');
+    const resultBox = document.getElementById('summary-output');
+    const loading = document.getElementById('loading-indicator');
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      resultBox.textContent = "";
+      loading.style.display = "block";
+
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch('/stream', {
+          method: 'POST',
+          body: formData,
+        });
+
+        if (!response.ok) {
+          resultBox.textContent = "فشل الاتصال بالخادم.";
+          loading.style.display = "none";
+          return;
+        }
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder("utf-8");
+        let fullText = "";
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          const chunk = decoder.decode(value, { stream: true });
+          if (chunk.includes("[DONE]")) break;
+
+          fullText += chunk;
+        }
+
+        resultBox.textContent = fullText;
+      } catch (err) {
+        resultBox.textContent = `خطأ: ${err}`;
+      } finally {
+        loading.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
+
