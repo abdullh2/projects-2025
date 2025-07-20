@@ -17,9 +17,9 @@
 ## 📁 هيكل المجلد:
 ```plaintext
 .
+├──  customers_churn_prediction/
 ├── data/
-├── customers_churn_prediction/
-└── .pdf
+└── customers churn prediction system.pdf
 ```
 
 ## 👤 الطالب:
