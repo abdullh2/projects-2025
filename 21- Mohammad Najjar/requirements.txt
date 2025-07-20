@@ -1,0 +1,8 @@
+customtkinter
+Pillow
+google-generativeai
+SpeechRecognition
+pyttsx3
+gTTS
+pygame
+numpy
