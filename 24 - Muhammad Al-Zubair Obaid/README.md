@@ -14,8 +14,8 @@ The system is composed of three main applications:
 - **Frontend:** Angular 20, TypeScript, RxJS, WebSockets
 - **Backend:** Django 4.2+, Django REST Framework, Django Channels
 - **AI Model:** TensorFlow, HuggingFace Transformers (`bert-base-multilingual-cased`)
-- **gRPC Service:** C# on .NET 8, ASP.NET Core gRPC
-- **Database:** PostgreSQL
+- **gRPC Service:** C# on .NET 9, ASP.NET Core gRPC
+- **Database:** SQLite
 - **Containerization:** Docker
 
 ## Getting Started
