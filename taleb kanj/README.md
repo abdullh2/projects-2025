@@ -32,8 +32,6 @@
 │       ├── train/          ← تسميات التدريب
 │       └── val/            ← تسميات التحقق
 ├── src/
-└── report.pdf
-
 │   ├── train_model.py      ← سكربت تدريب النموذج
 │   ├── test_model.py       ← سكربت اختبار النموذج
 │   └── visualize_data.py   ← سكربت تصور النتائج
