@@ -18,7 +18,8 @@
 ## كيفية التشغيل
 ملاحظة: يجب تنزيل المشروع من الرابط https://drive.google.com/file/d/1BGhN5auZcfCNYlR7TeWrfFJOSmWAf0JL/view?usp=sharing ونسخ مجلد data في المجلد src
 لتشغيل المشروع:
-* نضع في terminal 
+* نضع في terminal
+* 
                                                                                                                python scripts/test_model.py
                                                                                                                                          
 ## 📁 هيكل المجلد:
