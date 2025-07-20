@@ -20,7 +20,7 @@
                                                                                                                python scripts/test_model.py
 
 ## 📁 هيكل المجلد:
-
+```
  Aerial_Analysis_Project
 ├── data/
 │   ├── images/
@@ -31,12 +31,13 @@
 │       └── val/            ← تسميات التحقق
 ├── src/
 └── report.pdf
-```
+
 │   ├── train_model.py      ← سكربت تدريب النموذج
 │   ├── test_model.py       ← سكربت اختبار النموذج
 │   └── visualize_data.py   ← سكربت تصور النتائج
 ├── report.pdf              ← التقرير النهائي
 └── README.md               ← ملف التوثيق
+```
 
 
 
