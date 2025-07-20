@@ -1,0 +1,9 @@
+cat.jpg
+dog.jpg
+car.jpg
+tree.jpg
+plane.jpg
+chair.jpg
+house.jpg
+phone.jpg
+watch.jpg
