@@ -24,9 +24,9 @@ The system is composed of three main applications:
 
 1. Navigate to **`apps`**, then one of the sub-projects listed in the directory
 2. **Run projects**
-   - .NET: dotnet run
-   - Angular: ng serve
-   - Django: python3 manage.py runserver
+   - .NET: `dotnet run`
+   - Angular: `npm install && ng serve`
+   - Django: `python3 manage.py runserver`
 
 ## Project Structure
 
