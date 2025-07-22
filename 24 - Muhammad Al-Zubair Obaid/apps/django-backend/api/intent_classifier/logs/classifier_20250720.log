@@ -1,0 +1,108 @@
+2025-07-20 12:55:43,390 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 12:55:43,398 - IntentClassifierService - WARNING - No trained model found in ./models/intent_classifier. Please train the model first.
+2025-07-20 12:55:43,399 - IntentClassifierService - INFO - Classifier initialized successfully.
+2025-07-20 12:55:43,399 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 12:55:43,400 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 12:55:43,401 - IntentClassifierService - ERROR - Configuration file not found: ../../config/ai/intents.json
+2025-07-20 12:56:34,706 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 12:56:34,712 - IntentClassifierService - WARNING - No trained model found in ./models/intent_classifier. Please train the model first.
+2025-07-20 12:56:34,712 - IntentClassifierService - INFO - Classifier initialized successfully.
+2025-07-20 12:56:34,712 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 12:56:34,713 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 12:56:34,723 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 12:56:34,729 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 12:56:36,492 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 12:56:43,646 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-20 12:56:44,026 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 152
+2025-07-20 12:56:44,388 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 12:57:46,171 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 12:57:46,176 - IntentClassifierService - WARNING - No trained model found in ./models/intent_classifier. Please train the model first.
+2025-07-20 12:57:46,177 - IntentClassifierService - INFO - Classifier initialized successfully.
+2025-07-20 12:57:46,177 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 12:57:46,177 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 12:57:46,183 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 12:57:46,190 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 12:57:49,397 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 12:57:55,146 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-20 12:57:55,591 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 152
+2025-07-20 12:57:55,977 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 13:05:43,552 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 13:05:43,557 - IntentClassifierService - WARNING - No trained model found in ./models/intent_classifier (expected ./models/intent_classifier/tf_model.h5). Please train the model first.
+2025-07-20 13:05:43,557 - IntentClassifierService - INFO - Classifier initialized successfully.
+2025-07-20 13:05:43,558 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 13:05:43,558 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 13:05:43,562 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 13:05:43,565 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 13:05:47,532 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 13:05:50,754 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-20 13:05:52,240 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 152
+2025-07-20 13:05:53,582 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 13:08:35,960 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 13:08:35,966 - IntentClassifierService - WARNING - No trained model config found in ./models/intent_classifier. Please train the model first.
+2025-07-20 13:08:35,967 - IntentClassifierService - WARNING - Classifier initialized, but model is not loaded. Training is required.
+2025-07-20 13:08:35,967 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 13:08:35,967 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 13:08:35,972 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 13:08:44,819 - IntentClassifierService - INFO - Fitting the model...
+2025-07-20 13:09:45,331 - IntentClassifierService - INFO - Saving model to ./models/intent_classifier...
+2025-07-20 13:09:51,187 - IntentClassifierService - INFO - Model saved successfully.
+2025-07-20 13:09:51,187 - IntentClassifierService - INFO - --- Model Training Complete ---
+2025-07-20 13:13:14,611 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 13:13:14,617 - IntentClassifierService - INFO - Loading model from ./models/intent_classifier...
+2025-07-20 13:13:21,451 - IntentClassifierService - INFO - Model, tokenizer, and label encoder loaded successfully.
+2025-07-20 13:13:21,452 - IntentClassifierService - INFO - Classifier initialized successfully and is ready for inference.
+2025-07-20 13:13:21,452 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 13:13:21,452 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 13:13:21,458 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 13:13:27,525 - IntentClassifierService - INFO - Fitting the model...
+2025-07-20 13:14:12,245 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 13:14:12,252 - IntentClassifierService - INFO - Loading model from ./models/intent_classifier...
+2025-07-20 13:14:16,828 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-07-20 13:14:28,096 - IntentClassifierService - INFO - Model, tokenizer, and label encoder loaded successfully.
+2025-07-20 13:14:28,097 - IntentClassifierService - INFO - Classifier initialized successfully and is ready for inference.
+2025-07-20 13:14:28,097 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 13:14:28,097 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 13:14:28,116 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 13:14:28,121 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 13:14:29,986 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 13:14:36,267 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-20 13:14:36,658 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 152
+2025-07-20 13:14:37,100 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 13:14:38,376 - IntentClassifierService - INFO - Fitting the model...
+2025-07-20 13:14:48,893 - IntentClassifierService - INFO - Saving model to ./models/intent_classifier...
+2025-07-20 13:14:53,720 - IntentClassifierService - INFO - Model saved successfully.
+2025-07-20 13:14:53,721 - IntentClassifierService - INFO - --- Model Training Complete ---
+2025-07-20 13:22:03,120 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 13:22:03,128 - IntentClassifierService - WARNING - No trained model config found in ./models/intent_classifier. Please train the model first.
+2025-07-20 13:22:03,129 - IntentClassifierService - WARNING - Classifier initialized, but model is not loaded. Training is required.
+2025-07-20 13:22:03,129 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 13:22:03,129 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 13:22:03,135 - IntentClassifierService - INFO - Loaded 27 patterns for 4 intents.
+2025-07-20 13:22:03,141 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 13:22:04,831 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 13:22:09,989 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-20 13:22:10,501 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 152
+2025-07-20 13:22:10,889 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 13:22:11,241 - IntentClassifierService - INFO - Fitting the model...
+2025-07-20 13:23:00,860 - IntentClassifierService - INFO - Saving model to ./models/intent_classifier...
+2025-07-20 13:23:01,441 - h5py._conv - DEBUG - Creating converter from 5 to 3
+2025-07-20 13:23:06,656 - IntentClassifierService - INFO - Model saved successfully.
+2025-07-20 13:23:06,656 - IntentClassifierService - INFO - --- Model Training Complete ---
+2025-07-20 13:34:08,748 - IntentClassifierService - INFO - Initializing classifier with model 'bert-base-multilingual-cased'...
+2025-07-20 13:34:08,752 - IntentClassifierService - INFO - Loading model from ./models/intent_classifier...
+2025-07-20 13:34:12,115 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-07-20 13:34:15,965 - IntentClassifierService - INFO - Model, tokenizer, and label encoder loaded successfully.
+2025-07-20 13:34:15,965 - IntentClassifierService - INFO - Classifier initialized successfully and is ready for inference.
+2025-07-20 13:34:15,965 - IntentClassifierService - INFO - --- Starting Model Training ---
+2025-07-20 13:34:15,966 - IntentClassifierService - INFO - Loading training data...
+2025-07-20 13:34:15,973 - IntentClassifierService - INFO - Loaded 452 patterns for 32 intents.
+2025-07-20 13:34:15,976 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-20 13:34:18,196 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/config.json HTTP/1.1" 200 0
+2025-07-20 13:34:25,161 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-multilingual-cased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-20 13:34:25,604 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 152
+2025-07-20 13:34:25,974 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-20 13:34:26,343 - IntentClassifierService - INFO - Fitting the model...
+2025-07-20 13:36:16,523 - IntentClassifierService - INFO - Saving model to ./models/intent_classifier...
+2025-07-20 13:36:17,102 - h5py._conv - DEBUG - Creating converter from 5 to 3
+2025-07-20 13:36:22,228 - IntentClassifierService - INFO - Model saved successfully.
+2025-07-20 13:36:22,229 - IntentClassifierService - INFO - --- Model Training Complete ---

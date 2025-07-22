@@ -1,0 +1,9 @@
+# Core ML Libraries
+tensorflow==2.15.0
+transformers==4.36.2
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.26.2
+
+# For HuggingFace dataset handling
+datasets==2.16.1
