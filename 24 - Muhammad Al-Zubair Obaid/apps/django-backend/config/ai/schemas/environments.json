@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Development Environment Templates",
+  "description": "Defines predefined collections of applications and tools for automated environment setup.",
+  "type": "object",
+  "properties": {
+    "environments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "A unique identifier for the environment.",
+            "type": "string",
+            "examples": ["python_dev", "web_dev"]
+          },
+          "name": {
+            "description": "A user-friendly name for the environment.",
+            "type": "string"
+          },
+          "description": {
+            "description": "A brief description of the environment's purpose.",
+            "type": "string"
+          },
+          "apps": {
+            "description": "A list of WinGet package IDs to install for this environment.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dependencies": {
+            "description": "A list of other environment IDs that are prerequisites.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["id", "name", "description", "apps"]
+      }
+    }
+  },
+  "examples": [
+    {
+      "environments": [
+        {
+          "id": "python_dev",
+          "name": "Python Development Environment",
+          "description": "Installs Python 3, VS Code, and Git for a complete Python setup.",
+          "apps": [
+            "Python.Python.3.12",
+            "Microsoft.VisualStudioCode",
+            "Git.Git"
+          ],
+          "dependencies": []
+        },
+        {
+          "id": "web_dev",
+          "name": "Web Development Environment",
+          "description": "Installs Node.js, VS Code, Git, and Chrome for modern web development.",
+          "apps": [
+            "OpenJS.NodeJS",
+            "Microsoft.VisualStudioCode",
+            "Git.Git",
+            "Google.Chrome"
+          ],
+          "dependencies": []
+        }
+      ]
+    }
+  ]
+}

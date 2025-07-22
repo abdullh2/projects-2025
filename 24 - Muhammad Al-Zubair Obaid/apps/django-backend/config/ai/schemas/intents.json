@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Intent Classification Schema",
+  "description": "Defines the structure for training patterns for the AI intent classifier.",
+  "type": "object",
+  "properties": {
+    "intents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "intent": {
+            "description": "The unique identifier for the intent.",
+            "type": "string",
+            "examples": ["app_installation", "hardware_info"]
+          },
+          "patterns": {
+            "description": "An array of user phrases or questions that map to this intent.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "requires_automation": {
+            "description": "Boolean flag indicating if this intent triggers an automated script or action.",
+            "type": "boolean"
+          }
+        },
+        "required": ["intent", "patterns", "requires_automation"]
+      }
+    }
+  },
+  "examples": [
+    {
+      "intents": [
+        {
+          "intent": "app_installation",
+          "patterns": [
+            "install chrome",
+            "can you install vscode for me?",
+            "i need to get python",
+            "download git",
+            "تثبيت برنامج كروم",
+            "أريد تنزيل بايثون"
+          ],
+          "requires_automation": true
+        },
+        {
+          "intent": "hardware_info",
+          "patterns": [
+            "what are my specs?",
+            "show me my system information",
+            "tell me about my cpu",
+            "what gpu do i have?",
+            "ما هي مواصفات جهازي؟",
+            "عرض معلومات النظام"
+          ],
+          "requires_automation": true
+        },
+        {
+          "intent": "general_greeting",
+          "patterns": [
+            "hello",
+            "hi",
+            "hey",
+            "مرحبا",
+            "أهلا"
+          ],
+          "requires_automation": false
+        }
+      ]
+    }
+  ]
+}

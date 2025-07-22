@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Multilingual Response Templates",
+  "description": "Provides structured, multilingual chat responses for each intent.",
+  "type": "object",
+  "patternProperties": {
+    "^[a-z]{2}$": {
+      "type": "object",
+      "description": "Language code (e.g., 'en', 'ar').",
+      "patternProperties": {
+        "^[a-zA-Z0-9_]+$": {
+          "type": "object",
+          "description": "Intent name.",
+          "properties": {
+            "found": {
+              "description": "Response when an automated solution is available.",
+              "type": "string"
+            },
+            "not_found": {
+              "description": "Response when no automated solution is found or manual steps are required.",
+              "type": "string"
+            }
+          },
+          "required": ["found", "not_found"]
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "en": {
+        "app_installation": {
+          "found": "✅ Ready to install: {apps}\n📥 Using Windows Package Manager (WinGet)...",
+          "not_found": "❌ I couldn't find the requested apps. Please check the names."
+        },
+        "hardware_info": {
+          "found": "✅ Gathering hardware information...\n🖥️ Detecting: CPU, RAM, GPU, Storage, and system model.",
+          "not_found": "❌ I can't seem to retrieve the hardware information right now."
+        }
+      },
+      "ar": {
+        "app_installation": {
+          "found": "✅ جاهز للتثبيت: {apps}\n📥 باستخدام مدير حزم ويندوز (WinGet)...",
+          "not_found": "❌ لم أتمكن من العثور على التطبيقات المطلوبة. يرجى التحقق من الأسماء."
+        },
+        "hardware_info": {
+          "found": "✅ جاري جمع معلومات الأجهزة...\n🖥️ الكشف عن: المعالج، الذاكرة، كرت الشاشة، التخزين، وموديل النظام.",
+          "not_found": "❌ لا يمكنني استرداد معلومات الأجهزة في الوقت الحالي."
+        }
+      }
+    }
+  ]
+}

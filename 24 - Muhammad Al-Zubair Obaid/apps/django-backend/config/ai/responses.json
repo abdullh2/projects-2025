@@ -1,0 +1,271 @@
+{
+  "$schema": "schemas/responses.json",
+  "en": {
+    "app_installation": {
+      "found": "Sure, I'll start the installation for {apps} right away. This may take a few moments.",
+      "not_found": "I can't automatically install {apps}. I've created a ticket for the IT department to handle your request."
+    },
+    "app_uninstallation": {
+      "found": "Okay, I'm starting the uninstallation process for {apps}.",
+      "not_found": "I can't automatically uninstall {apps}. I've created a ticket for the IT department to handle your request."
+    },
+    "app_update": {
+      "found": "Checking for updates and applying them now. This might take a moment.",
+      "not_found": "I can't automatically run updates at this time. Please try again later or contact IT support."
+    },
+    "app_troubleshooting": {
+      "found": "I'm sorry you're having trouble. I'll try to restart the application {apps} and clear its cache.",
+      "not_found": "I was unable to resolve the issue with {apps}. I have logged the error and notified the support team."
+    },
+    "environment_setup": {
+      "found": "Setting up the {environment} development environment for you. I'll install the necessary tools and packages.",
+      "not_found": "I don't have an automated setup for the {environment} environment. I've created a ticket for the IT team to assist you."
+    },
+    "hardware_info": {
+      "found": "Fetching your system's hardware information now...",
+      "not_found": "I was unable to retrieve your hardware information. Please run a manual system check or contact support."
+    },
+    "network_connectivity": {
+      "found": "I'm running diagnostics on your network connection. I'll try to reset the network adapter and flush the DNS.",
+      "not_found": "The automated network diagnostics did not solve the issue. Please check your physical connections or contact your internet provider."
+    },
+    "vpn_connection": {
+      "found": "Attempting to connect to the VPN. Please wait...",
+      "not_found": "I couldn't establish a VPN connection. Please check your credentials and network, or contact support for assistance."
+    },
+    "system_reboot": {
+      "found": "Rebooting your computer now. Please save any unsaved work.",
+      "not_found": "I was unable to initiate a system reboot. Please try restarting your computer manually."
+    },
+    "system_shutdown": {
+      "found": "Shutting down your computer. Goodbye!",
+      "not_found": "I was unable to initiate a system shutdown. Please shut down your computer manually."
+    },
+    "file_management_find": {
+      "found": "Searching your system for the requested files...",
+      "not_found": "I could not find the files you requested. Please check the file name and path and try again."
+    },
+    "file_management_delete": {
+      "found": "Okay, I am deleting the specified files/folders. This action cannot be undone.",
+      "not_found": "I was unable to delete the requested files. Please check your permissions and try again."
+    },
+    "security_scan": {
+      "found": "Starting a security scan. This might take some time to complete. I will notify you when it's done.",
+      "not_found": "I was unable to start the security scan. Please check that your antivirus software is installed and running correctly."
+    },
+    "password_reset": {
+      "found": "I've initiated the password reset process. Please follow the instructions sent to your recovery email or phone.",
+      "not_found": "I cannot reset this password automatically. Please contact the help desk for manual password recovery."
+    },
+    "os_info": {
+      "found": "Gathering your operating system details...",
+      "not_found": "I was unable to retrieve your OS information. Please check your system settings manually."
+    },
+    "performance_check": {
+      "found": "I'm running performance diagnostics and will attempt to optimize your system.",
+      "not_found": "I couldn't complete the performance check. You may need to run a more detailed diagnostic using system tools."
+    },
+    "printer_issues": {
+      "found": "I'm troubleshooting your printer connection. I'll restart the print spooler and clear the queue.",
+      "not_found": "Automated troubleshooting failed. Please ensure the printer is on, connected, and has paper."
+    },
+    "git_clone": {
+      "found": "Cloning the repository now. Please specify the destination folder if you haven't already.",
+      "not_found": "I couldn't clone the repository. Please check the URL and ensure you have the necessary access rights."
+    },
+    "run_script": {
+      "found": "Executing the script. You can view the output in the console.",
+      "not_found": "The script failed to execute. Please check the script path and your execution permissions."
+    },
+    "greeting": {
+      "found": "Hello! How can I help you today?",
+      "not_found": "Hello! How can I assist you?"
+    },
+    "goodbye": {
+      "found": "Goodbye! Have a great day.",
+      "not_found": "Goodbye! Let me know if you need anything else."
+    },
+    "request_help": {
+      "found": "Of course. Please describe the issue you're facing. You can ask me to do things like 'install chrome' or 'check my disk space'.",
+      "not_found": "Of course. Please describe the issue you're facing."
+    },
+    "clear_cache": {
+      "found": "Clearing system and application caches now.",
+      "not_found": "I was unable to clear the cache automatically. You may need to do it manually through your browser or system settings."
+    },
+    "disk_cleanup": {
+      "found": "Starting the disk cleanup utility to free up space.",
+      "not_found": "I was unable to start disk cleanup. Please try running it manually from your system tools."
+    },
+    "check_ip_address": {
+      "found": "Fetching your network IP address information...",
+      "not_found": "I was unable to retrieve your IP address. Please check your network connection."
+    },
+    "user_account_lock": {
+      "found": "I'm checking the status of your account. If it's locked, I will attempt to unlock it.",
+      "not_found": "I cannot automatically unlock this account. I have created a high-priority ticket with the IT security team."
+    },
+    "request_access": {
+      "found": "I've created a ticket to request access for you. You will be notified once it's approved.",
+      "not_found": "I've created a ticket to request access for you. You will be notified once it's approved."
+    },
+    "display_issues": {
+      "found": "Running display diagnostics. I will try to reset the graphics driver.",
+      "not_found": "Automated diagnostics didn't solve the display issue. Please check your cable connections or contact support."
+    },
+    "audio_issues": {
+      "found": "Troubleshooting your audio devices. I'll check the default devices and drivers.",
+      "not_found": "I couldn't fix the audio issue. Please ensure your speakers or headphones are properly connected and not muted."
+    },
+    "manage_services": {
+      "found": "Executing the requested service command...",
+      "not_found": "I was unable to manage the service. Please check if you have administrative privileges."
+    },
+    "check_uptime": {
+      "found": "Checking your system's boot time and uptime...",
+      "not_found": "I was unable to retrieve the system uptime."
+    },
+    "request_software_license": {
+      "found": "I have logged your request for a software license. The IT department will review it and get back to you.",
+      "not_found": "I have logged your request for a software license. The IT department will review it and get back to you."
+    },
+    "unknown": {
+      "found": "I'm not sure how to help with that. Can you please rephrase your request? You can also ask for 'help' to see what I can do.",
+      "not_found": "I'm not sure how to help with that. Can you please rephrase your request? You can also ask for 'help' to see what I can do."
+    }
+  },
+  "ar": {
+    "app_installation": {
+      "found": "بالتأكيد، سأبدأ في تثبيت {apps} على الفور. قد يستغرق هذا بضع لحظات.",
+      "not_found": "لا يمكنني تثبيت {apps} تلقائيًا. لقد أنشأت تذكرة لقسم تكنولوجيا المعلومات لمعالجة طلبك."
+    },
+    "app_uninstallation": {
+      "found": "حسنًا، سأبدأ عملية إلغاء تثبيت {apps}.",
+      "not_found": "لا يمكنني إلغاء تثبيت {apps} تلقائيًا. لقد أنشأت تذكرة لقسم تكنولوجيا المعلومات لمعالجة طلبك."
+    },
+    "app_update": {
+      "found": "جاري التحقق من وجود تحديثات وتطبيقها الآن. قد يستغرق هذا بعض الوقت.",
+      "not_found": "لا يمكنني تشغيل التحديثات تلقائيًا في هذا الوقت. يرجى المحاولة مرة أخرى لاحقًا أو الاتصال بدعم تكنولوجيا المعلومات."
+    },
+    "app_troubleshooting": {
+      "found": "يؤسفني أنك تواجه مشكلة. سأحاول إعادة تشغيل تطبيق {apps} ومسح ذاكرة التخزين المؤقت الخاصة به.",
+      "not_found": "لم أتمكن من حل المشكلة مع {apps}. لقد سجلت الخطأ وأبلغت فريق الدعم."
+    },
+    "environment_setup": {
+      "found": "جاري إعداد بيئة تطوير {environment} لك. سأقوم بتثبيت الأدوات والحزم اللازمة.",
+      "not_found": "ليس لدي إعداد تلقائي لبيئة {environment}. لقد أنشأت تذكرة لفريق تكنولوجيا المعلومات لمساعدتك."
+    },
+    "hardware_info": {
+      "found": "جاري جلب معلومات جهازك الآن...",
+      "not_found": "لم أتمكن من استرداد معلومات جهازك. يرجى إجراء فحص يدوي للنظام أو الاتصال بالدعم."
+    },
+    "network_connectivity": {
+      "found": "أقوم بتشخيص اتصال الشبكة لديك. سأحاول إعادة تعيين محول الشبكة ومسح ذاكرة التخزين المؤقت لـ DNS.",
+      "not_found": "لم تحل تشخيصات الشبكة التلقائية المشكلة. يرجى التحقق من اتصالاتك المادية أو الاتصال بمزود خدمة الإنترنت."
+    },
+    "vpn_connection": {
+      "found": "جاري محاولة الاتصال بالشبكة الخاصة الافتراضية. الرجاء الانتظار...",
+      "not_found": "لم أتمكن من إنشاء اتصال VPN. يرجى التحقق من بيانات الاعتماد والشبكة، أو الاتصال بالدعم للحصول على المساعدة."
+    },
+    "system_reboot": {
+      "found": "جاري إعادة تشغيل جهاز الكمبيوتر الخاص بك الآن. يرجى حفظ أي عمل غير محفوظ.",
+      "not_found": "لم أتمكن من بدء إعادة تشغيل النظام. يرجى محاولة إعادة تشغيل جهاز الكمبيوتر يدويًا."
+    },
+    "system_shutdown": {
+      "found": "جاري إيقاف تشغيل جهاز الكمبيوتر الخاص بك. وداعًا!",
+      "not_found": "لم أتمكن من بدء إيقاف تشغيل النظام. يرجى إيقاف تشغيل جهاز الكمبيوتر يدويًا."
+    },
+    "file_management_find": {
+      "found": "جاري البحث في نظامك عن الملفات المطلوبة...",
+      "not_found": "لم أتمكن من العثور على الملفات التي طلبتها. يرجى التحقق من اسم الملف والمسار والمحاولة مرة أخرى."
+    },
+    "file_management_delete": {
+      "found": "حسنًا، أنا أحذف الملفات/المجلدات المحددة. لا يمكن التراجع عن هذا الإجراء.",
+      "not_found": "لم أتمكن من حذف الملفات المطلوبة. يرجى التحقق من أذوناتك والمحاولة مرة أخرى."
+    },
+    "security_scan": {
+      "found": "جاري بدء فحص أمني. قد يستغرق هذا بعض الوقت حتى يكتمل. سأعلمك عند الانتهاء.",
+      "not_found": "لم أتمكن من بدء الفحص الأمني. يرجى التحقق من أن برنامج مكافحة الفيروسات الخاص بك مثبت ويعمل بشكل صحيح."
+    },
+    "password_reset": {
+      "found": "لقد بدأت عملية إعادة تعيين كلمة المرور. يرجى اتباع التعليمات المرسلة إلى بريدك الإلكتروني أو هاتفك المخصص للاسترداد.",
+      "not_found": "لا يمكنني إعادة تعيين كلمة المرور هذه تلقائيًا. يرجى الاتصال بمكتب المساعدة لاستعادة كلمة المرور يدويًا."
+    },
+    "os_info": {
+      "found": "جاري جمع تفاصيل نظام التشغيل الخاص بك...",
+      "not_found": "لم أتمكن من استرداد معلومات نظام التشغيل الخاص بك. يرجى التحقق من إعدادات النظام يدويًا."
+    },
+    "performance_check": {
+      "found": "أقوم بتشغيل تشخيصات الأداء وسأحاول تحسين نظامك.",
+      "not_found": "لم أتمكن من إكمال فحص الأداء. قد تحتاج إلى تشغيل تشخيص أكثر تفصيلاً باستخدام أدوات النظام."
+    },
+    "printer_issues": {
+      "found": "أقوم باستكشاف أخطاء اتصال الطابعة وإصلاحها. سأعيد تشغيل خدمة التخزين المؤقت للطباعة وأمسح قائمة الانتظار.",
+      "not_found": "فشل استكشاف الأخطاء وإصلاحها تلقائيًا. يرجى التأكد من أن الطابعة قيد التشغيل ومتصلة وبها ورق."
+    },
+    "git_clone": {
+      "found": "جاري استنساخ المستودع الآن. يرجى تحديد مجلد الوجهة إذا لم تكن قد فعلت ذلك بالفعل.",
+      "not_found": "لم أتمكن من استنساخ المستودع. يرجى التحقق من عنوان URL والتأكد من أن لديك حقوق الوصول اللازمة."
+    },
+    "run_script": {
+      "found": "جاري تنفيذ السكربت. يمكنك عرض المخرجات في وحدة التحكم.",
+      "not_found": "فشل تنفيذ السكربت. يرجى التحقق من مسار السكربت وأذونات التنفيذ الخاصة بك."
+    },
+    "greeting": {
+      "found": "مرحباً! كيف يمكنني مساعدتك اليوم؟",
+      "not_found": "مرحباً! كيف يمكنني مساعدتك؟"
+    },
+    "goodbye": {
+      "found": "وداعًا! أتمنى لك يوماً سعيداً.",
+      "not_found": "وداعًا! أخبرني إذا احتجت أي شيء آخر."
+    },
+    "request_help": {
+      "found": "بالطبع. يرجى وصف المشكلة التي تواجهها. يمكنك أن تطلب مني القيام بأشياء مثل 'تثبيت كروم' أو 'التحقق من مساحة القرص'.",
+      "not_found": "بالطبع. يرجى وصف المشكلة التي تواجهها."
+    },
+    "clear_cache": {
+      "found": "جاري مسح ذاكرة التخزين المؤقت للنظام والتطبيقات الآن.",
+      "not_found": "لم أتمكن من مسح ذاكرة التخزين المؤقت تلقائيًا. قد تحتاج إلى القيام بذلك يدويًا من خلال متصفحك أو إعدادات النظام."
+    },
+    "disk_cleanup": {
+      "found": "جاري بدء أداة تنظيف القرص لتحرير المساحة.",
+      "not_found": "لم أتمكن من بدء تنظيف القرص. يرجى محاولة تشغيله يدويًا من أدوات النظام."
+    },
+    "check_ip_address": {
+      "found": "جاري جلب معلومات عنوان IP الخاص بشبكتك...",
+      "not_found": "لم أتمكن من استرداد عنوان IP الخاص بك. يرجى التحقق من اتصال الشبكة."
+    },
+    "user_account_lock": {
+      "found": "أتحقق من حالة حسابك. إذا كان مقفلاً، سأحاول إلغاء قفله.",
+      "not_found": "لا يمكنني إلغاء قفل هذا الحساب تلقائيًا. لقد أنشأت تذكرة ذات أولوية عالية مع فريق أمن تكنولوجيا المعلومات."
+    },
+    "request_access": {
+      "found": "لقد أنشأت تذكرة لطلب الوصول لك. سيتم إعلامك بمجرد الموافقة عليها.",
+      "not_found": "لقد أنشأت تذكرة لطلب الوصول لك. سيتم إعلامك بمجرد الموافقة عليها."
+    },
+    "display_issues": {
+      "found": "جاري تشغيل تشخيصات العرض. سأحاول إعادة تعيين برنامج تشغيل الرسومات.",
+      "not_found": "لم تحل التشخيصات التلقائية مشكلة العرض. يرجى التحقق من توصيلات الكابلات أو الاتصال بالدعم."
+    },
+    "audio_issues": {
+      "found": "جاري استكشاف أخطاء أجهزة الصوت وإصلاحها. سأتحقق من الأجهزة الافتراضية وبرامج التشغيل.",
+      "not_found": "لم أتمكن من إصلاح مشكلة الصوت. يرجى التأكد من أن مكبرات الصوت أو سماعات الرأس متصلة بشكل صحيح وغير مكتومة."
+    },
+    "manage_services": {
+      "found": "جاري تنفيذ أمر الخدمة المطلوب...",
+      "not_found": "لم أتمكن من إدارة الخدمة. يرجى التحقق مما إذا كان لديك امتيازات إدارية."
+    },
+    "check_uptime": {
+      "found": "جاري التحقق من وقت إقلاع النظام ومدة تشغيله...",
+      "not_found": "لم أتمكن من استرداد مدة تشغيل النظام."
+    },
+    "request_software_license": {
+      "found": "لقد سجلت طلبك للحصول على ترخيص برنامج. سيقوم قسم تكنولوجيا المعلومات بمراجعته والرد عليك.",
+      "not_found": "لقد سجلت طلبك للحصول على ترخيص برنامج. سيقوم قسم تكنولوجيا المعلومات بمراجعته والرد عليك."
+    },
+    "unknown": {
+      "found": "لست متأكدًا من كيفية المساعدة في ذلك. هل يمكنك إعادة صياغة طلبك من فضلك؟ يمكنك أيضًا طلب 'مساعدة' لمعرفة ما يمكنني القيام به.",
+      "not_found": "لست متأكدًا من كيفية المساعدة في ذلك. هل يمكنك إعادة صياغة طلبك من فضلك؟ يمكنك أيضًا طلب 'مساعدة' لمعرفة ما يمكنني القيام به."
+    }
+  }
+}
