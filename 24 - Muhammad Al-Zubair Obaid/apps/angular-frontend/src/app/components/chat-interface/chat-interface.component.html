@@ -1,0 +1,50 @@
+<!-- src/app/components/chat-interface/chat-interface.component.html -->
+<div class="chat-wrapper">
+  <div class="chat-messages" #chatContainer>
+    @for (msg of messages(); track msg.id) {
+      <div class="message" [class]="'message-' + msg.sender">
+        <div class="message-bubble">
+          <p class="message-text">{{ msg.text }}</p>
+          <span class="message-timestamp">{{ msg.timestamp | date:'shortTime' }}</span>
+        </div>
+      </div>
+    }
+  </div>
+
+  @if (isLoading()) {
+    <div class="progress-area">
+      @if (currentProgress(); as progress) {
+        <div class="progress-bar-container">
+          <div class="progress-text-container">
+            <span class="progress-text">{{ progress.currentTask }}</span>
+            <span class="progress-percentage">{{ progress.overallPercentage }}%</span>
+          </div>
+          <div class="progress-bar-background">
+            <div class="progress-bar-foreground" [style.width.%]="progress.overallPercentage"></div>
+          </div>
+        </div>
+      } @else {
+        <div class="typing-indicator">
+          <span></span><span></span><span></span>
+        </div>
+      }
+      <button class="cancel-button" (click)="cancelOperation()">Cancel</button>
+    </div>
+  }
+
+  <div class="chat-input-area">
+    <input
+      type="text"
+      class="chat-input"
+      placeholder="Describe your issue or request..."
+      [(ngModel)]="userInput"
+      (keyup.enter)="sendMessage()"
+      [disabled]="isLoading() || !websocketService.isConnected()"
+    />
+    <button class="send-button" (click)="sendMessage()" [disabled]="isLoading() || !websocketService.isConnected() || !userInput().trim()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="send-icon">
+        <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+      </svg>
+    </button>
+  </div>
+</div>

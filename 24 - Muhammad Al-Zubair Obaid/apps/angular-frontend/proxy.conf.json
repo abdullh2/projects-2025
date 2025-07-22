@@ -1,0 +1,8 @@
+{
+  "/LaptopSupport.SupportService": {
+    "target": "localhost:5220",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

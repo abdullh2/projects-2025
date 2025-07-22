@@ -1,0 +1,41 @@
+<!-- src/app/app.component.html -->
+<div class="app-layout">
+  <!-- Sidebar for navigation and status -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <!-- App Icon -->
+      <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25A2.25 2.25 0 015.25 3h9.75a2.25 2.25 0 012.25 2.25z" />
+      </svg>
+      <h2 class="sidebar-title">Support AI</h2>
+    </div>
+    <nav class="sidebar-nav">
+      <a class="nav-item active">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+        <span>Chat</span>
+      </a>
+      <!-- Will be implemented in the future -->
+<!--      <a class="nav-item">-->
+<!--        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 1.5m1-1.5L9.75 3.75M11.25 3.75l1.5-1.5m-1.5 1.5l-1.5-1.5m7.5 11.25l1 1.5m-1-1.5L14.25 3.75M12.75 3.75l-1.5-1.5m1.5 1.5l1.5-1.5" /></svg>-->
+<!--        <span>Dashboard</span>-->
+<!--      </a>-->
+    </nav>
+    <div class="sidebar-footer">
+        <div class="connection-status" [class.connected]="websocketService.isConnected()">
+            <span class="status-dot"></span>
+            <span>{{ websocketService.isConnected() ? 'Connected' : 'Connecting...' }}</span>
+        </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <header class="main-header">
+      <h1>AI Laptop Support Assistant</h1>
+      <!-- A user profile icon could be added here in the future -->
+    </header>
+    <div class="content-area">
+      <app-chat-interface></app-chat-interface>
+    </div>
+  </main>
+</div>
