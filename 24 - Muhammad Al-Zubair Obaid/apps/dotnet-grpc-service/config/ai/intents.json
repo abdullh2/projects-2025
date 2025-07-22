@@ -1,0 +1,261 @@
+{
+  "$schema": "schemas/intents.json",
+  "intents": [
+    {
+      "intent": "app_installation",
+      "patterns": [
+        "install chrome", "get vscode", "i need python", "download git", "can you setup firefox for me?", "add slack to my computer", "put spotify on this machine", "i want to get notion", "can you install the adobe suite?", "setup docker for me", "i need to install nodejs", "please add zoom to my desktop", "can you get me the latest version of blender?",
+        "تثبيت برنامج كروم", "أريد تنزيل بايثون", "احتاج فيجوال ستوديو كود", "تحميل برنامج git", "هل يمكنك تثبيت فايرفوكس؟", "أضف سلاك إلى جهازي", "أريد برنامج نوشن", "تثبيت حزمة أدوبي", "قم بإعداد دوكر", "أحتاج تثبيت nodejs", "الرجاء إضافة زوم لسطح المكتب", "هل يمكن الحصول على أحدث نسخة من بلندر؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "app_uninstallation",
+      "patterns": [
+        "uninstall photoshop", "remove office", "i don't need zoom anymore", "get rid of skype", "delete java from my system", "i want to remove teams", "please uninstall eclipse", "how do i remove spotify?",
+        "إلغاء تثبيت فوتوشوب", "حذف برامج أوفيس", "لم أعد بحاجة إلى زوم", "تخلص من سكايب", "احذف جافا من نظامي", "أريد إزالة تيمز", "الرجاء إلغاء تثبيت إكليبس", "كيف أحذف سبوتيفاي؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "app_update",
+      "patterns": [
+        "update my apps", "check for software updates", "update chrome to the latest version", "are my applications up to date?", "i need the newest version of word", "patch my system", "please update all my adobe apps", "is there a new update for windows?",
+        "تحديث تطبيقاتي", "تحقق من وجود تحديثات للبرامج", "تحديث كروم إلى آخر إصدار", "هل تطبيقاتي محدثة؟", "أريد أحدث نسخة من وورد", "تحديث النظام", "الرجاء تحديث كل برامج أدوبي", "هل هناك تحديث جديد لويندوز؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "app_troubleshooting",
+      "patterns": [
+        "outlook is not responding", "my browser crashed", "powerpoint is frozen", "excel keeps closing", "word won't open", "slack is not sending messages", "figma is lagging", "my vpn client is stuck on connecting", "docker daemon is not running",
+        "أوتلوك لا يستجيب", "المتصفح انهار", "بوربوينت تجمد", "إكسل يغلق فجأة", "وورد لا يفتح", "سلاك لا يرسل الرسائل", "فيجما بطيء", "برنامج الـ VPN عالق عند الاتصال", "خدمة دوكر لا تعمل"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "environment_setup",
+      "patterns": [
+        "setup python dev environment", "i need a web dev setup", "configure a java environment", "prepare my machine for node.js development", "install the .net sdk", "i need the android studio environment", "configure my machine for ruby on rails", "set up a lamp stack",
+        "جهز لي بيئة تطوير بايثون", "أريد بيئة تطوير للويب", "إعداد بيئة جافا", "جهز جهازي لتطوير node.js", "تثبيت حزمة تطوير .net", "أحتاج بيئة أندرويد ستوديو", "إعداد الجهاز لروبي أون ريلز", "تجهيز حزمة LAMP"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "hardware_info",
+      "patterns": [
+        "what are my specs?", "show system information", "tell me about my cpu", "what gpu do i have?", "how much ram is installed?", "check disk space", "what's my serial number?", "details about my battery", "list my hardware components", "what is my mac address?", "show me my motherboard model",
+        "ما هي مواصفات جهازي؟", "عرض معلومات النظام", "ما هو المعالج لدي؟", "ما هي بطاقة الرسوميات التي أملكها؟", "كم حجم الذاكرة (RAM)؟", "تحقق من مساحة القرص", "ما هو الرقم التسلسلي؟", "معلومات عن البطارية", "اعرض مكونات جهازي", "ما هو عنوان MAC الخاص بي؟", "أظهر لي طراز اللوحة الأم"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "network_connectivity",
+      "patterns": [
+        "my wifi is not working", "cannot connect to the internet", "slow connection", "network is down", "internet is out", "why can't I get online?", "the ethernet cable is plugged in but no internet", "connection keeps dropping", "i have high ping", "dns is not resolving",
+        "الواي فاي لا يعمل", "لا يمكنني الاتصال بالانترنت", "الاتصال بطيء", "الشبكة معطلة", "الإنترنت مقطوع", "لماذا لا يمكنني الدخول على الإنترنت؟", "الاتصال ينقطع باستمرار", "لدي بنج مرتفع", "DNS لا يستجيب"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "vpn_connection",
+      "patterns": [
+        "connect to the vpn", "disconnect from vpn", "vpn is not working", "how to setup vpn?", "the vpn connection failed", "i need to access the corporate vpn", "my vpn is slow", "which vpn server should i use?",
+        "اتصل بالشبكة الخاصة الافتراضية", "اقطع الاتصال بالـ VPN", "الـ VPN لا يعمل", "كيف أُعِد الـ VPN؟", "فشل الاتصال بالـ VPN", "أحتاج الدخول على VPN الشركة", "الـ VPN بطيء", "أي خادم VPN يجب أن أستخدم؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "system_reboot",
+      "patterns": [
+        "reboot my computer", "restart the pc", "can you restart my machine?", "reboot now", "please restart", "i need to reboot", "perform a system restart",
+        "أعد تشغيل الكمبيوتر", "إعادة تشغيل الجهاز", "هل يمكنك إعادة تشغيل جهازي؟", "أعد التشغيل الآن", "من فضلك أعد التشغيل", "أحتاج لإعادة التشغيل", "قم بإعادة تشغيل النظام"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "system_shutdown",
+      "patterns": [
+        "shutdown my computer", "turn off the pc", "power down the machine", "shut it down", "i want to turn off my computer",
+        "أغلق الكمبيوتر", "إطفاء الجهاز", "إيقاف تشغيل الجهاز", "أغلقه", "أريد إطفاء الكمبيوتر"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "file_management_find",
+      "patterns": [
+        "find a file named report.docx", "where is my presentation?", "search for budget.xlsx", "locate the project folder", "i can't find my document", "search for all pdfs in my downloads", "find the latest log file", "show me all files modified today",
+        "ابحث عن ملف باسم report.docx", "أين هو العرض التقديمي الخاص بي؟", "ابحث عن budget.xlsx", "حدد موقع مجلد المشروع", "لا أستطيع إيجاد مستندي", "ابحث عن كل ملفات PDF في التنزيلات", "ابحث عن أحدث ملف سجل", "أظهر لي كل الملفات المعدلة اليوم"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "file_management_delete",
+      "patterns": [
+        "delete the temp folder", "remove old logs", "send screenshot.png to the trash", "empty the recycle bin", "clean up my downloads folder", "delete all files larger than 1gb",
+        "احذف المجلد المؤقت", "إزالة السجلات القديمة", "أرسل screenshot.png إلى سلة المحذوفات", "إفراغ سلة المحذوفات", "نظف مجلد التنزيلات", "احذف كل الملفات الأكبر من 1 جيجابايت"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "security_scan",
+      "patterns": [
+        "run a virus scan", "check for malware", "is my computer infected?", "scan my system for threats", "start a full security scan", "perform a quick scan", "schedule a weekly scan",
+        "قم بإجراء فحص للفيروسات", "تحقق من وجود برامج ضارة", "هل جهازي مصاب؟", "افحص نظامي بحثًا عن تهديدات", "ابدأ فحصًا أمنيًا كاملاً", "قم بفحص سريع", "جدولة فحص أسبوعي"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "password_reset",
+      "patterns": [
+        "i forgot my password", "reset my windows password", "need a new password for my account", "change my login password", "my password has expired", "i need to change my wifi password",
+        "لقد نسيت كلمة المرور الخاصة بي", "إعادة تعيين كلمة مرور ويندوز", "أحتاج كلمة مرور جديدة لحسابي", "تغيير كلمة مرور الدخول", "انتهت صلاحية كلمة المرور", "أحتاج تغيير كلمة سر الواي فاي"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "os_info",
+      "patterns": [
+        "what version of windows am I running?", "show me the OS details", "am I on macos or windows?", "tell me my operating system build number", "what is my computer name?",
+        "ما هو إصدار ويندوز الذي أستخدمه؟", "أظهر لي تفاصيل نظام التشغيل", "هل أستخدم نظام ماك أم ويندوز؟", "أخبرني برقم بنية نظام التشغيل", "ما هو اسم الكمبيوتر الخاص بي؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "performance_check",
+      "patterns": [
+        "my computer is running slow", "why is everything so sluggish?", "optimize system performance", "speed up my pc", "my laptop is overheating", "the fan is always on", "check cpu usage", "show me memory usage",
+        "جهازي يعمل ببطء", "لماذا كل شيء بطيء جدًا؟", "تحسين أداء النظام", "تسريع جهاز الكمبيوتر الخاص بي", "الكمبيوتر المحمول يسخن بشدة", "المروحة تعمل باستمرار", "تحقق من استخدام المعالج", "أظهر لي استخدام الذاكرة"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "printer_issues",
+      "patterns": [
+        "i can't print", "my printer is offline", "add a new printer", "the print queue is stuck", "the printer is not responding", "how to set default printer?", "my document is not printing", "clear the print queue",
+        "لا أستطيع الطباعة", "طابعتي غير متصلة بالإنترنت", "إضافة طابعة جديدة", "قائمة انتظار الطباعة عالقة", "الطابعة لا تستجيب", "كيف أضبط الطابعة الافتراضية؟", "مستندي لا يطبع", "مسح قائمة انتظار الطباعة"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "git_clone",
+      "patterns": [
+        "clone the repository from github", "git clone the project", "download the code from gitlab", "get a copy of the backend repo", "clone the frontend project from bitbucket",
+        "استنسخ المستودع من github", "git clone للمشروع", "تنزيل الكود من gitlab", "احصل على نسخة من مستودع الواجهة الخلفية", "استنساخ مشروع الواجهة الأمامية من bitbucket"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "run_script",
+      "patterns": [
+        "run the build script", "execute deploy.sh", "run my python script", "start the server", "kick off the test suite", "run the database migration script",
+        "شغل سكربت البناء", "نفذ deploy.sh", "شغل سكربت بايثون الخاص بي", "ابدأ الخادم", "ابدأ تشغيل مجموعة الاختبارات", "شغل سكربت ترحيل قاعدة البيانات"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "good morning", "how are you", "what's up", "greetings", "good afternoon", "good evening",
+        "مرحباً", "أهلاً", "يا", "صباح الخير", "كيف حالك", "ما الأخبار", "تحياتي", "مساء الخير"
+      ],
+      "requires_automation": false
+    },
+    {
+      "intent": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "thanks for the help", "that's all", "cya", "talk to you later", "i'm done", "exit",
+        "وداعاً", "مع السلامة", "أراك لاحقاً", "شكراً للمساعدة", "هذا كل شيء", "إلى اللقاء", "انتهيت", "خروج"
+      ],
+      "requires_automation": false
+    },
+    {
+      "intent": "request_help",
+      "patterns": [
+        "i need help", "can you assist me?", "i have a problem", "support", "help me please", "i'm stuck", "i need some assistance", "can you help me with something?",
+        "أحتاج مساعدة", "هل يمكنك مساعدتي؟", "لدي مشكلة", "دعم", "ساعدني من فضلك", "أنا عالق", "أحتاج بعض المساعدة", "هل يمكنك مساعدتي في شيء ما؟"
+      ],
+      "requires_automation": false
+    },
+    {
+      "intent": "clear_cache",
+      "patterns": [
+        "clear my browser cache", "delete temporary internet files", "flush dns cache", "clear chrome's cache", "empty application cache", "clear the system cache",
+        "امسح ذاكرة التخزين المؤقت للمتصفح", "احذف ملفات الإنترنت المؤقتة", "مسح ذاكرة التخزين المؤقت لـ DNS", "امسح ذاكرة تخزين كروم", "إفراغ ذاكرة التخزين المؤقت للتطبيق", "مسح ذاكرة التخزين المؤقت للنظام"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "disk_cleanup",
+      "patterns": [
+        "run disk cleanup", "free up disk space", "clean up my hard drive", "remove junk files", "i'm running out of space", "analyze disk usage",
+        "تشغيل تنظيف القرص", "تحرير مساحة على القرص", "تنظيف القرص الصلب", "إزالة الملفات غير المرغوب فيها", "المساحة على وشك النفاد", "تحليل استخدام القرص"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "check_ip_address",
+      "patterns": [
+        "what is my ip address?", "show my local ip", "find my public ip", "what's my ipv4 address", "what is the gateway address?",
+        "ما هو عنوان IP الخاص بي؟", "أظهر لي عنوان IP المحلي", "ابحث عن عنوان IP العام الخاص بي", "ما هو عنوان ipv4 الخاص بي؟", "ما هو عنوان البوابة؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "user_account_lock",
+      "patterns": [
+        "my account is locked", "i can't log in", "my user account has been disabled", "unlock my account", "login failed too many times", "my active directory account is locked out",
+        "حسابي مقفل", "لا أستطيع تسجيل الدخول", "تم تعطيل حساب المستخدم الخاص بي", "افتح حسابي", "فشل تسجيل الدخول لمرات عديدة", "حسابي في Active Directory مقفل"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "request_access",
+      "patterns": [
+        "i need access to the shared drive", "can you give me permission for the marketing folder?", "requesting access to jira", "i need to be added to the project", "grant me read/write access to the database",
+        "أحتاج الوصول إلى المجلد المشترك", "هل يمكنك منحي الإذن لمجلد التسويق؟", "أطلب الوصول إلى جيرا", "أحتاج إلى إضافتي للمشروع", "امنحني صلاحيات القراءة والكتابة على قاعدة البيانات"
+      ],
+      "requires_automation": false
+    },
+    {
+      "intent": "display_issues",
+      "patterns": [
+        "my screen is flickering", "the resolution is wrong", "i can't change my screen brightness", "my second monitor is not detected", "the screen is black", "the text is blurry", "change the screen orientation",
+        "شاشتي ترمش", "دقة الشاشة خاطئة", "لا أستطيع تغيير سطوع الشاشة", "لم يتم اكتشاف شاشتي الثانية", "الشاشة سوداء", "النص غير واضح", "تغيير اتجاه الشاشة"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "audio_issues",
+      "patterns": [
+        "i can't hear anything", "my microphone is not working", "the sound is distorted", "no audio output device is installed", "my headphones are not connecting", "the volume is too low", "how to change the default audio device?",
+        "لا أسمع أي شيء", "الميكروفون لا يعمل", "الصوت مشوش", "لم يتم تثبيت أي جهاز إخراج صوتي", "سماعاتي لا تتصل", "الصوت منخفض جدًا", "كيف أغير جهاز الصوت الافتراضي؟"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "manage_services",
+      "patterns": [
+        "start the apache service", "stop the sql server", "restart the print spooler", "what services are running?", "list all disabled services",
+        "ابدأ خدمة أباتشي", "أوقف خادم SQL", "أعد تشغيل خدمة التخزين المؤقت للطباعة", "ما هي الخدمات التي تعمل؟", "اعرض كل الخدمات المعطلة"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "check_uptime",
+      "patterns": [
+        "how long has my computer been on?", "check system uptime", "when was the last reboot?", "show me the system boot time",
+        "منذ متى والكمبيوتر يعمل؟", "تحقق من مدة تشغيل النظام", "متى كانت آخر إعادة تشغيل؟", "أظهر لي وقت إقلاع النظام"
+      ],
+      "requires_automation": true
+    },
+    {
+      "intent": "request_software_license",
+      "patterns": [
+        "i need a license for jetbrains", "requesting a license for office 365", "my trial for photoshop has expired", "can i get a full license for acrobat?", "my windows license is about to expire",
+        "أحتاج ترخيص لـ JetBrains", "أطلب ترخيصًا لـ Office 365", "انتهت الفترة التجريبية لفوتوشوب", "هل يمكنني الحصول على ترخيص كامل لـ Acrobat؟", "ترخيص ويندوز على وشك الانتهاء"
+      ],
+      "requires_automation": false
+    }
+  ]
+}

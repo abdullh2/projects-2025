@@ -1,0 +1,38 @@
+// Protos/support.proto
+syntax = "proto3";
+package LaptopSupport;
+service SupportService {
+  rpc InstallApps(InstallAppsRequest) returns (stream ProgressUpdate);
+  rpc QuerySystemInfo(QuerySystemInfoRequest) returns (SystemInfoResponse);
+  rpc InstallEnvironment(InstallEnvironmentRequest) returns (stream ProgressUpdate);
+}
+service AdminService {
+  rpc RunCommand(RunCommandRequest) returns (RunCommandResponse);
+}
+message InstallAppsRequest { repeated string app_ids = 1; }
+message InstallEnvironmentRequest { string environment_id = 1; }
+message QuerySystemInfoRequest {
+  bool include_drivers = 1;
+  bool include_gpu_info = 2;
+  bool include_storage_info = 3;
+}
+message SystemInfoResponse {
+  string cpu_name = 1;
+  string ram_total_gb = 2;
+  string gpu_name = 3;
+  string os_version = 4;
+  repeated StorageDevice storage_devices = 5;
+  repeated DriverInfo drivers = 6;
+  Error error = 7;
+}
+message StorageDevice { string model = 1; string size_gb = 2; string free_space_gb = 3; }
+message DriverInfo { string device_name = 1; string driver_version = 2; string status = 3; }
+message RunCommandRequest { string command = 1; repeated string args = 2; }
+message RunCommandResponse { string standard_output = 1; string standard_error = 2; int32 exit_code = 3; }
+message ProgressUpdate {
+  string current_task = 1;
+  int32 overall_percentage = 2;
+  Status status = 3;
+  enum Status { UNKNOWN = 0; IN_PROGRESS = 1; COMPLETED = 2; FAILED = 3; }
+}
+message Error { string code = 1; string message = 2; }

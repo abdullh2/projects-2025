@@ -1,0 +1,96 @@
+{
+  "$schema": "schemas/environments.json",
+  "environments": [
+    {
+      "id": "python_dev",
+      "name": "Python Development Environment",
+      "description": "Installs Python 3, VS Code with Python extension, and Git.",
+      "apps": ["Python.Python.3.12", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "web_dev",
+      "name": "Web Development Environment",
+      "description": "Installs Node.js, VS Code with Prettier/ESLint, and Git.",
+      "apps": ["OpenJS.NodeJS", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "java_dev",
+      "name": "Java Development Environment",
+      "description": "Installs OpenJDK, VS Code with Java extensions, Maven, and Git.",
+      "apps": ["EclipseAdoptium.Temurin.17.JDK", "Microsoft.VisualStudioCode", "Apache.Maven", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "dotnet_dev",
+      "name": ".NET Development Environment",
+      "description": "Installs the .NET SDK, VS Code with C# extension, and Git.",
+      "apps": ["Microsoft.DotNet.SDK.8", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science Environment",
+      "description": "Installs Anaconda (Python, Jupyter, common libraries), VS Code, and Git.",
+      "apps": ["Anaconda.Anaconda3", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": ["python_dev"]
+    },
+    {
+      "id": "docker_dev",
+      "name": "Docker Development Environment",
+      "description": "Installs Docker Desktop, VS Code with Docker extension, and Git.",
+      "apps": ["Docker.DockerDesktop", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "android_dev",
+      "name": "Android Development Environment",
+      "description": "Installs Android Studio, Java Development Kit (JDK), and Git.",
+      "apps": ["Google.AndroidStudio", "EclipseAdoptium.Temurin.17.JDK", "Git.Git"],
+      "dependencies": ["java_dev"]
+    },
+    {
+      "id": "ruby_dev",
+      "name": "Ruby on Rails Development Environment",
+      "description": "Installs Ruby, Rails gem, VS Code, and Git.",
+      "apps": ["RubyInstallerTeam.RubyWithDevKit", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "go_dev",
+      "name": "Go (Golang) Development Environment",
+      "description": "Installs the Go language, VS Code with Go extension, and Git.",
+      "apps": ["Go.Go", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "rust_dev",
+      "name": "Rust Development Environment",
+      "description": "Installs Rustup (the Rust toolchain installer), VS Code with rust-analyzer, and Git.",
+      "apps": ["Rustlang.Rustup", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "php_dev",
+      "name": "PHP Development Environment (LAMP)",
+      "description": "Installs XAMPP (Apache, MySQL, PHP, Perl), VS Code, and Git.",
+      "apps": ["ApacheFriends.Xampp.8", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "cpp_dev",
+      "name": "C++ Development Environment",
+      "description": "Installs Visual Studio Build Tools (for C++ compiler), VS Code with C/C++ extension, and Git.",
+      "apps": ["Microsoft.VisualStudio.BuildTools", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": []
+    },
+    {
+      "id": "flutter_dev",
+      "name": "Flutter Development Environment",
+      "description": "Installs the Flutter SDK, VS Code with Flutter extension, and Git. Requires an existing Android or iOS setup.",
+      "apps": ["Google.Flutter", "Microsoft.VisualStudioCode", "Git.Git"],
+      "dependencies": ["android_dev"]
+    }
+  ]
+}
