@@ -6,11 +6,18 @@ This is a simple Python project that uses your webcam to detect emotions from fa
 
 - Opens your webcam  
 - Detects faces using DeepFace  
-- Shows the emotion (like happy, sad, angry) on the screen  
+- Shows the emotion (like happy, sad, angry) on the screen
 
 ## How to Run
 
 1. Install the needed packages:
-```bash
-pip install -r requirements.txt
-```
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Run the main script:
+
+    ```bash
+    python src/main.py
+    ```
